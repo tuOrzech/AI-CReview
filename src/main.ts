@@ -99,7 +99,7 @@ async function getBaseAndHeadShas(
 function getEslintRules(): string {
 	const eslintConfigFiles: string[] = [
 		".eslintrc.js",
-		"eslint.cjs",
+		".eslint.cjs",
 		".eslintrc.json",
 		".eslintrc.yaml",
 		".eslintrc.yml",
